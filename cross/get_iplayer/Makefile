@@ -19,4 +19,5 @@ include ../../mk/spksrc.cross-cc.mk
 myInstall:
 	@install -m 755 -d $(STAGING_INSTALL_PREFIX)/bin/
 	@$(RUN) install -m 755 get_iplayer $(STAGING_INSTALL_PREFIX)/bin
+	@$(RUN) install -m 755 get_iplayer.cgi $(STAGING_INSTALL_PREFIX)/bin
 
